@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+/*responsible for styling the header of the prototype design*/
+header {
+  background: #222;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #ff5500;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+section {
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem 0;
+}
+
+#features {
+  display: flex;
+  justify-content: space-around;
+  background: #ddd;
+}
+
+.feature {
+  padding: 1rem;
+  background: #eee;
+  margin: 0.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 5px solid #ff5500;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  background: #fafafa;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+}
